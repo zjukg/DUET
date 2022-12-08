@@ -35,7 +35,7 @@ Please condiser citing this paper if you use the ```code``` or ```data``` from o
 Thanks a lot :)
 
 ```bigquery
-@InProceedings{Chen2022DUET,
+@InProceedings{Chen2023DUET,
     author    = {Chen, Zhuo and Huang, Yufeng and Chen, Jiaoyan and Geng, Yuxia and Zhang, Wen and Fang, Yin and Pan, Jeff Z and Song, Wenting and Chen, Huajun},
     title     = {DUET: Cross-modal Semantic Grounding for Contrastive Zero-shot Learning},
     booktitle = {Proceedings of the Thirty-Seventh AAAI Conference on Artificial Intelligence (AAAI)},
