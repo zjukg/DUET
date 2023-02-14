@@ -2,15 +2,25 @@
 ![](https://img.shields.io/badge/version-1.0.1-blue)
 [![license](https://img.shields.io/github/license/mashape/apistatus.svg?maxAge=2592000)](https://github.com/zjukg/DUET/blob/main/licence)
 [![arxiv badge](https://img.shields.io/badge/arxiv-2207.01328-red)](https://arxiv.org/abs/2207.01328)
+[![AAAI](https://img.shields.io/badge/AAAI'23-brightgreen)](https://aaai.org/Conferences/AAAI-23/)
+[![Pytorch](https://img.shields.io/badge/PyTorch-%23EE4C2C.svg?e&logo=PyTorch&logoColor=white)](https://pytorch.org/)
  - [*DUET: Cross-modal Semantic Grounding for Contrastive Zero-shot Learning*](https://arxiv.org/abs/2207.01328)
 
 >In this paper, we present a transformer-based end-to-end ZSL method named DUET, which integrates latent semantic knowledge from the pre-trained language models (PLMs) via a self-supervised multi-modal learning paradigm. Specifically, we **(1)** developed a cross-modal semantic grounding network to 
 investigate the model's capability of disentangling semantic attributes from the images; **(2)** applied an attribute-level contrastive learning strategy to further enhance the model's discrimination on fine-grained visual characteristics against the attribute co-occurrence and imbalance; **(3)** proposed a multi-task learning policy for considering multi-model objectives.
 
-## Model Architecture
+## 🌈 Model Architecture
 ![Model_architecture](https://github.com/zjukg/DUET/blob/main/figure/duet.png)
 
-## Code Path
+## 📕 Code Path
+
+#### Code Structures
+There are four parts in the code.
+- **model**: It contains the main files for DUET network.
+- **data**: It contains the data splits for different datasets.
+- **cache**: It contains some cache files.
+- **script**: The training scripts for DUET.
+
 ```shell
 DUET
 ├── cache
@@ -71,7 +81,7 @@ DUET
         └── SUN_GZSL.sh
 ```
 
-## Dependencies
+## 📚 Dependencies
 
 - ```Python 3```
 - ```PyTorch >= 1.8.0```
@@ -79,7 +89,7 @@ DUET
 - ```NumPy```
 - All experiments are performed with one RTX 3090Ti GPU.
 
-## Prerequisites
+## ⚡ Prerequisites
 - **Dataset**: please download the dataset, i.e., [CUB](http://www.vision.caltech.edu/visipedia/CUB-200-2011.html), [AWA2](https://cvml.ist.ac.at/AwA2/), [SUN](https://groups.csail.mit.edu/vision/SUN/hierarchy.html), and change the ```opt.image_root``` to the dataset root path on your machine
 - **Data split**: please download the data folder and place it in ```./data/```.
 - ```Attributeindex2prompt.json``` should generate and place it in ```./cache/dataset/```.
@@ -87,14 +97,9 @@ DUET
   - [deit-base-distilled-patch16-224](https://huggingface.co/facebook/deit-base-distilled-patch16-224)
   - [swin_base_patch4_window7_224.pth](https://github.com/SwinTransformer/storage/releases/download/v1.0.0/swin_base_patch4_window7_224.pth) 
 
-## Code Structures
-There are four parts in the code.
-- **model**: It contains the main files for DUET network.
-- **data**: It contains the data splits for different datasets.
-- **cache**: It contains some cache files.
-- **script**: The training scripts for DUET.
 
-### Train & Eval
+
+## 🚀 Train & Eval
 
 The training script for **AWA2_GZSL**:
 ```shell
