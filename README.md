@@ -117,7 +117,7 @@ bash script/AWA2/AWA2_GZSL.sh
 **Note**: 
 - you can open the `.sh` file for <a href="#Parameter">parameter</a> modification.
 
-## Cite:
+## ❗ Cite:
 Please condiser citing this paper if you use the ```code``` or ```data``` from our work.
 Thanks a lot :)
 
