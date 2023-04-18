@@ -81,7 +81,7 @@ DUET
         └── SUN_GZSL.sh
 ```
 
-## 📚 Dependencies
+## 🔬 Dependencies
 
 - ```Python 3```
 - ```PyTorch >= 1.8.0```
@@ -89,7 +89,7 @@ DUET
 - ```NumPy```
 - All experiments are performed with one RTX 3090Ti GPU.
 
-## ⚡ Prerequisites
+## 📚 Prerequisites
 - **Dataset**: please download the dataset, i.e., [CUB](http://www.vision.caltech.edu/visipedia/CUB-200-2011.html), [AWA2](https://cvml.ist.ac.at/AwA2/), [SUN](https://groups.csail.mit.edu/vision/SUN/hierarchy.html), and change the ```opt.image_root``` to the dataset root path on your machine
 - **Data split**: please download the data folder and place it in ```./data/```.
 - ```Attributeindex2prompt.json``` should generate and place it in ```./cache/dataset/```.
@@ -117,7 +117,7 @@ bash script/AWA2/AWA2_GZSL.sh
 **Note**: 
 - you can open the `.sh` file for <a href="#Parameter">parameter</a> modification.
 
-## ❗ Cite:
+## 🤝 Cite:
 Please condiser citing this paper if you use the ```code``` or ```data``` from our work.
 Thanks a lot :)
 
