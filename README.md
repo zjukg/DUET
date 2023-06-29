@@ -91,6 +91,7 @@ DUET
 
 ## 📚 Prerequisites
 - **Dataset**: please download the dataset, i.e., [CUB](http://www.vision.caltech.edu/visipedia/CUB-200-2011.html), [AWA2](https://cvml.ist.ac.at/AwA2/), [SUN](https://groups.csail.mit.edu/vision/SUN/hierarchy.html), and change the ```opt.image_root``` to the dataset root path on your machine
+  - ❗NOTE: For other required feature files like `APN.mat`, **please refer to [here](https://github.com/zjukg/DUET/issues/2)**.
 - **Data split**: please download the data folder and place it in ```./data/```.
 - ```Attributeindex2prompt.json``` should generate and place it in ```./cache/dataset/```.
 - Download pretranined vision Transformer as the vision encoder: 
@@ -116,6 +117,7 @@ bash script/AWA2/AWA2_GZSL.sh
 
 **Note**: 
 - you can open the `.sh` file for <a href="#Parameter">parameter</a> modification.
+- Don't worry if you have any question. Just let we know via **`Adding Issues`**.
 
 ## 🤝 Cite:
 Please condiser citing this paper if you use the ```code``` or ```data``` from our work.
