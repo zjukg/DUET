@@ -115,9 +115,9 @@ bash script/AWA2/AWA2_GZSL.sh
 [--attribute_miss ATTRIBUTE_MISS]
 ```
 
-**Note**: 
+**❗Note**: 
 - you can open the `.sh` file for <a href="#Parameter">parameter</a> modification.
-- Don't worry if you have any question. Just let we know via **`Adding Issues`**.
+- Don't worry if you have any question. Just feel free to let we know via **`Adding Issues`**.
 
 ## 🤝 Cite:
 Please condiser citing this paper if you use the ```code``` or ```data``` from our work.
