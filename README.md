@@ -124,11 +124,14 @@ Please condiser citing this paper if you use the ```code``` or ```data``` from o
 Thanks a lot :)
 
 ```bigquery
-@InProceedings{Chen2023DUET,
-    author    = {Chen, Zhuo and Huang, Yufeng and Chen, Jiaoyan and Geng, Yuxia and Zhang, Wen and Fang, Yin and Pan, Jeff Z and Song, Wenting and Chen, Huajun},
-    title     = {DUET: Cross-modal Semantic Grounding for Contrastive Zero-shot Learning},
-    booktitle = {{AAAI}},
-    year      = {2023}
+@inproceedings{chen2023duet,
+  title={Duet: Cross-modal semantic grounding for contrastive zero-shot learning},
+  author={Chen, Zhuo and Huang, Yufeng and Chen, Jiaoyan and Geng, Yuxia and Zhang, Wen and Fang, Yin and Pan, Jeff Z and Chen, Huajun},
+  booktitle={Proceedings of the AAAI Conference on Artificial Intelligence},
+  volume={37},
+  number={1},
+  pages={405--413},
+  year={2023}
 }
 ```
 <a href="https://info.flagcounter.com/VOlE"><img src="https://s11.flagcounter.com/count2/VOlE/bg_FFFFFF/txt_000000/border_F7F7F7/columns_6/maxflags_12/viewers_3/labels_0/pageviews_0/flags_0/percent_0/" alt="Flag Counter" border="0"></a>
