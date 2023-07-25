@@ -9,6 +9,8 @@
 >In this paper, we present a transformer-based end-to-end ZSL method named DUET, which integrates latent semantic knowledge from the pre-trained language models (PLMs) via a self-supervised multi-modal learning paradigm. Specifically, we **(1)** developed a cross-modal semantic grounding network to 
 investigate the model's capability of disentangling semantic attributes from the images; **(2)** applied an attribute-level contrastive learning strategy to further enhance the model's discrimination on fine-grained visual characteristics against the attribute co-occurrence and imbalance; **(3)** proposed a multi-task learning policy for considering multi-model objectives.
 
+- Due to the **```page and format restrictions```** set by AAAI publications, we have omitted some details and appendix content. For the complete version of the paper, including the **```selection of prompts```** and **```experiment details```**, please refer to our [arXiv version](https://arxiv.org/abs/2207.01328).
+
 ## 🌈 Model Architecture
 ![Model_architecture](https://github.com/zjukg/DUET/blob/main/figure/duet.png)
 
