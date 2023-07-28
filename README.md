@@ -2,7 +2,7 @@
 ![](https://img.shields.io/badge/version-1.0.1-blue)
 [![license](https://img.shields.io/github/license/mashape/apistatus.svg?maxAge=2592000)](https://github.com/zjukg/DUET/blob/main/licence)
 [![arxiv badge](https://img.shields.io/badge/arxiv-2207.01328-red)](https://arxiv.org/abs/2207.01328)
-[![AAAI](https://img.shields.io/badge/AAAI'23-brightgreen)](https://aaai.org/Conferences/AAAI-23/)
+[![AAAI](https://img.shields.io/badge/AAAI-2023-%23f1592a?labelColor=%23003973&color=%23be1c1a)](https://aaai.org/Conferences/AAAI-23/)
 [![Pytorch](https://img.shields.io/badge/PyTorch-%23EE4C2C.svg?e&logo=PyTorch&logoColor=white)](https://pytorch.org/)
  - [*DUET: Cross-modal Semantic Grounding for Contrastive Zero-shot Learning*](https://arxiv.org/abs/2207.01328)
 
@@ -11,7 +11,7 @@ investigate the model's capability of disentangling semantic attributes from the
 
 - Due to the **```page and format restrictions```** set by AAAI publications, we have omitted some details and appendix content. For the complete version of the paper, including the **```selection of prompts```** and **```experiment details```**, please refer to our [arXiv version](https://arxiv.org/abs/2207.01328).
 
-## 🌈 Model Architecture
+## 🤖 Model Architecture
 ![Model_architecture](https://github.com/zjukg/DUET/blob/main/figure/duet.png)
 
 ## 📕 Code Path
@@ -117,7 +117,7 @@ bash script/AWA2/AWA2_GZSL.sh
 [--attribute_miss ATTRIBUTE_MISS]
 ```
 
-**❗Note**: 
+** 📌 Note**: 
 - you can open the `.sh` file for <a href="#Parameter">parameter</a> modification.
 - Don't worry if you have any question. Just feel free to let we know via **`Adding Issues`**.
 
