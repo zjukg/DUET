@@ -117,7 +117,7 @@ bash script/AWA2/AWA2_GZSL.sh
 [--attribute_miss ATTRIBUTE_MISS]
 ```
 
-** 📌 Note**: 
+📌 **Note**: 
 - you can open the `.sh` file for <a href="#Parameter">parameter</a> modification.
 - Don't worry if you have any question. Just feel free to let we know via **`Adding Issues`**.
 
@@ -126,14 +126,20 @@ Please condiser citing this paper if you use the ```code``` or ```data``` from o
 Thanks a lot :)
 
 ```bigquery
-@inproceedings{chen2023duet,
-  title={Duet: Cross-modal semantic grounding for contrastive zero-shot learning},
-  author={Chen, Zhuo and Huang, Yufeng and Chen, Jiaoyan and Geng, Yuxia and Zhang, Wen and Fang, Yin and Pan, Jeff Z and Chen, Huajun},
-  booktitle={Proceedings of the AAAI Conference on Artificial Intelligence},
-  volume={37},
-  number={1},
-  pages={405--413},
-  year={2023}
+@inproceedings{DBLP:conf/aaai/ChenHCGZFPC23,
+  author       = {Zhuo Chen and
+                  Yufeng Huang and
+                  Jiaoyan Chen and
+                  Yuxia Geng and
+                  Wen Zhang and
+                  Yin Fang and
+                  Jeff Z. Pan and
+                  Huajun Chen},
+  title        = {{DUET:} Cross-Modal Semantic Grounding for Contrastive Zero-Shot Learning},
+  booktitle    = {{AAAI}},
+  pages        = {405--413},
+  publisher    = {{AAAI} Press},
+  year         = {2023}
 }
 ```
 <a href="https://info.flagcounter.com/VOlE"><img src="https://s11.flagcounter.com/count2/VOlE/bg_FFFFFF/txt_000000/border_F7F7F7/columns_6/maxflags_12/viewers_3/labels_0/pageviews_0/flags_0/percent_0/" alt="Flag Counter" border="0"></a>
