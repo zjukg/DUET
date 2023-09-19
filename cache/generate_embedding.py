@@ -21,11 +21,8 @@ for i, image_path in enumerate(tqdm(image_files, total=len(image_files))):
     image_path = image_path[0][0].replace("/BS/Deep_Fragments/work/MSc", "/home/hyf/data")
     img = Image.open(image_path).convert('RGB')
     feature = feature_extractor(images=img, return_tensors="pt")['pixel_values']
-    embedding = swin(feature.cuda()).logits.detach().cpu().numpy()
-    if i == 0:
-        image_embedding = embedding
-    else:
-        image_embedding = np.concatenate((image_embedding, embedding), 0)
+    
+    # concat features
 
-with open("cub_image2embedding.pkl", "wb") as f:
-    pickle.dump(image_embedding,f)
+
+# save feature
