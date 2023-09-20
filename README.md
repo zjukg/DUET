@@ -96,7 +96,7 @@ DUET
   - ❗NOTE: For other required feature files like `APN.mat` and `id2imagepixel.pkl`, **please refer to [here](https://github.com/zjukg/DUET/issues/2)**.
 - **Data split**: please download the data folder and place it in ```./data/```.
 - ```Attributeindex2prompt.json``` should generate and place it in ```./cache/dataset/```.
-- Download pretranined vision Transformer as the vision encoder: 
+- Download pretrained vision Transformer as the vision encoder: 
   - [deit-base-distilled-patch16-224](https://huggingface.co/facebook/deit-base-distilled-patch16-224)
   - [swin_base_patch4_window7_224.pth](https://github.com/SwinTransformer/storage/releases/download/v1.0.0/swin_base_patch4_window7_224.pth) 
 
@@ -122,7 +122,7 @@ bash script/AWA2/AWA2_GZSL.sh
 - Don't worry if you have any question. Just feel free to let we know via **`Adding Issues`**.
 
 ## 🤝 Cite:
-Please condiser citing this paper if you use the ```code``` or ```data``` from our work.
+Please consider citing this paper if you use the ```code``` or ```data``` from our work.
 Thanks a lot :)
 
 ```bigquery
