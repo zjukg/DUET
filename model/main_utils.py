@@ -46,10 +46,10 @@ class Result(object):
 class CategoriesSampler():
     # migrated from Liu et.al., which works well for CUB dataset
     def __init__(self, label_for_imgs, n_batch=1000, n_cls=16, n_per=3, ep_per_batch=1):
-        self.n_batch = n_batch # batchs for each epoch
+        self.n_batch = n_batch # batches for each epoch
         self.n_cls = n_cls # ways
         self.n_per = n_per # shots
-        self.ep_per_batch = ep_per_batch # episodes for each batch, defult set 1
+        self.ep_per_batch = ep_per_batch # episodes for each batch, default set 1
         # print('label_for_imgs:', label_for_imgs[:100])
         # print(np.unique(label_for_imgs))
         self.cat = list(np.unique(label_for_imgs))
@@ -284,7 +284,7 @@ def get_loader(opt, data):
 def get_middle_graph(weight_cpt, model):
     middle_graph = None
     if weight_cpt > 0:
-        # creat middle_graph to mask the L_CPT:
+        # create middle_graph to mask the L_CPT:
         kernel_size = model.kernel_size[model.extract[0]]
         raw_graph = torch.zeros((2 * kernel_size - 1, 2 * kernel_size - 1))
         for x in range(- kernel_size + 1, kernel_size):
