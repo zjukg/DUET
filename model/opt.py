@@ -10,7 +10,7 @@ def get_opt():
     parser.add_argument('--image_embedding', default='res101')
     parser.add_argument('--class_embedding', default='att')
     parser.add_argument('--preprocessing', action='store_true', default=True,
-                        help='enbale MinMaxScaler on visual features')
+                        help='enable MinMaxScaler on visual features')
     parser.add_argument('--standardization', action='store_true', default=False)
     parser.add_argument('--ol', action='store_true', default=False,
                         help='original learning, use unseen dataset when training classifier')
@@ -81,7 +81,7 @@ def get_opt():
     parser.add_argument('--temperature', type=float, default=0.05)
     parser.add_argument('--loss_function', type=str, default="L2", help="the type of loss function")
     parser.add_argument('--model_name', type=str, default="baseline", help="baseline,softmax,sigmoid,relu")
-    parser.add_argument('--mask_pro', type=float, default=0.5, help="probablity of mask")
+    parser.add_argument('--mask_pro', type=float, default=0.5, help="probability of mask")
     parser.add_argument('--mask_loss_xishu', type=float, default=1, help="The coefficient of mask loss")
     parser.add_argument('--construct_loss_weight', type=float, default=0.01, help="weight of construct_loss")
     parser.add_argument('--xlayer_num', type=int, default=1, help="number of xlayer(cross and self attention)")
