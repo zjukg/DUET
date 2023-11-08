@@ -14,6 +14,9 @@ investigate the model's capability of disentangling semantic attributes from the
 ## 🤖 Model Architecture
 ![Model_architecture](https://github.com/zjukg/DUET/blob/main/figure/duet.png)
 
+## 📚 Dataset Download
+- **The cache data for **`(CUB, AWA, SUN)`** are available [`here`](https://pan.baidu.com/s/13oyLDNm6uoYpVgcMitrY-A) (`Baidu cloud`, **`19.89G`**, Code: `s07d`).
+
 ## 📕 Code Path
 
 #### Code Structures
