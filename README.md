@@ -11,6 +11,10 @@ investigate the model's capability of disentangling semantic attributes from the
 
 - Due to the **```page and format restrictions```** set by AAAI publications, we have omitted some details and appendix content. For the complete version of the paper, including the **```selection of prompts```** and **```experiment details```**, please refer to our [arXiv version](https://arxiv.org/abs/2207.01328).
 
+ ## 🔔 News
+- **`2024-02` We preprint our Survey [Knowledge Graphs Meet Multi-Modal Learning: A Comprehensive Survey](http://arxiv.org/abs/2402.05391)  [[`Repo`](https://github.com/zjukg/KG-MM-Survey)].**
+- **`2023-12`** Our paper: [Structure-CLIP: Towards Scene Graph Knowledge to Enhance Multi-modal Structured Representations](https://arxiv.org/abs/2305.06152) was accepted by **`AAAI 2024`**
+
 ## 🤖 Model Architecture
 ![Model_architecture](https://github.com/zjukg/DUET/blob/main/figure/duet.png)
 
